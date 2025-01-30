@@ -1,0 +1,353 @@
+@media(max-width:1496px)
+{
+    .boot
+{
+    position: relative;
+    left: 55px;
+}
+.boot:hover
+{
+    color:chocolate;
+    transition: 0.9s;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.drop2
+{
+    display: flex;
+    position: relative;
+    top: 15px;
+    /* bottom: 25px; */
+    left:100px;
+    
+}
+li
+{
+    list-style: none;
+    padding-left: 35px;
+}
+.home:hover
+{
+    color: chocolate;
+    transition: 0.9s;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.in
+{
+    height: 45px;
+    width: 200px;
+    /* bottom: 15px; */
+    /* width: 70%; */
+    position: relative;
+    right: 65px;
+    border-radius: 5px;
+    
+}
+::placeholder
+{
+    padding-left: 7px;
+}
+.dropdown
+{
+    position: relative;
+    bottom: 8px;
+}
+.das
+{
+    color: white;
+
+}
+.das:hover
+{
+    color: chocolate;
+    transition: 0.9s;
+}
+.btn
+{
+    position: relative;
+    right: 55px;
+    /* bottom: 15px; */
+}
+.btn3
+{
+    position: relative;
+    left: 150px;
+}
+.car
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.main3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.h1
+{
+
+    position: relative;
+    top: 15px;
+}
+.img-1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 135px; */
+    top: 8px;
+}
+.donec
+{
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.heading
+{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+.btn2
+{
+    width: 100px;
+    position: relative;
+    left: 150px;
+}
+.hr
+{
+    position: relative;
+    top: 25px;
+}
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    height: 510px;
+    /* padding-left: 0px; */
+    /* padding-right: 0px; */
+}
+.first2
+{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    height: 510px;
+    /* padding-left: 0px; */
+    /* padding-right: 0px; */
+}
+.png
+{
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+.png2
+{
+    position: relative;
+    right: 15px;
+}
+.fi
+{
+    font-size: 52px;
+}
+.nulla
+{
+    position: relative;
+    top: 100px;
+}
+}
+@media(max-width:1200px)
+{
+    .btn2
+    {
+        position: relative;
+        left: 120px;
+    }
+}
+@media(max-width:992px)
+{
+    .btn2
+    {
+        position: relative;
+        left: 180px;
+    }
+    .btn3
+    {
+        position: relative;
+        left: 420px;
+    }
+    .fi
+    {
+        position: relative;
+        bottom: 25px;
+    }
+    .fi2
+    {
+        position: relative;
+        bottom: 25px;
+    }
+    p
+    {
+        position: relative;
+        bottom: 25px;
+    }
+    .some
+    {
+        position: relative;
+        top: 5px;
+    }
+    .donec
+    {
+        position: relative;
+        top: 5px;
+    }
+}
+@media(max-width:796px)
+{
+    .btn2
+    {
+        position: relative;
+        left: 300px;
+    }
+    .btn3
+    {
+        position: relative;
+        left: 300px;
+    }
+    .png
+    {
+        position: relative;
+        top: 75px;
+    }
+    .hr2
+    {
+        position: relative;
+        top: 275px;
+    }
+    .png3
+    {
+        position: relative;
+        top: 250px;
+    }
+    .nulla2
+    {
+        position: relative;
+        top: 280px;
+    }
+    .hr4
+    {
+        position: relative;
+        top: 425px;
+    }
+    .nulla3
+    {
+        position: relative;
+        top: 450px;
+    }
+    .png4
+    {
+        position: relative;
+        top: 450px;
+    }
+    .hr6
+    {
+        position: relative;
+        top: 640px;
+    }
+
+}
+@media(max-width:576px)
+{
+    .btn2
+    {
+        position: relative;
+        left: 210px;
+    }
+    .btn3
+    {
+        position: relative;
+        left: 210px;
+    }
+    .fi
+    {
+        position: relative;
+        bottom: 100px;
+    }
+    .fi2
+    {
+        position: relative;
+        font-size: 52px;
+        bottom: 25px;
+    }
+    p
+    {
+        position: relative;
+        bottom: 100px;
+    }
+    .p
+    {
+        position: relative;
+        bottom: 20px;
+    }
+    .hr4
+    {
+        position: relative;
+        top: 490px;
+    }
+    .png2
+    {
+        position: relative;
+        bottom: 70px;
+    }
+    .png3
+    {
+        position: relative;
+        bottom: 70px;
+    }
+    .hr2
+    {
+        position: relative;
+        top: 250px;
+    }
+    .png3
+    {
+        position: relative;
+        top: 300px;
+    }
+    .first2
+    {
+        position: relative;
+        top: 120px;
+    }
+    .hr6
+    {
+        position: relative;
+        top: 20px;
+        /* bottom: 25px; */
+    }
+    .png4
+    {
+        height: auto;
+    }
+}
+/* @media(max-width:325px)
+{
+    .png
+    {
+        height: 500px;
+        width: 400px;
+    }
+} */

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand boot">Bootstrap</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main">
+        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse main" id="main">
+        <ul class="drop2 w-50">
+          <li>
+            <a href="#" class="home">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="home">
+              Link
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle das" id="das" data-bs-toggle="dropdown">
+              Dashboard
+            </a>
+            <ul class="dropdown-menu drop">
+              <li>
+                <a href="#" class="dropdown-item home">Dashboard1</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item home">Dashboard2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <form>
+          <input type="text" placeholder="Search" class="in">
+          <a href="#" class="btn btn-outline-success">Search</a>
+        </form>
+
+      </div>
+
+
+    </div>
+
+  </nav>
+  <!-- carousel -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 car ">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/images1.jpeg" class="d-block w-100" alt="..." height="400px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p class="some">Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/images2.jpeg" class="d-block w-100" alt="..." height="400px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p class="some">Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/images3.jpeg" class="d-block w-100" alt="..." height="400px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p class="some">Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3header -->
+  <div class="container">
+
+    <div class="row main3">
+      <div class="col-12 col-sm-12 col-md-12 md-pt-4 col-lg-6 col-xl-4">
+
+        <div class="h1">
+          <div class="img-put">
+            <div class="img-1">
+              <img src="img/images1.jpeg" alt="" height="120px" width="120px" style="border-radius: 100px;">
+            </div>
+            <hr>
+          </div>
+          <h1 class="heading">Heading</h1>
+          <hr>
+          <p class="donec">
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+            magna.
+          </p>
+          <a href="#" class="btn btn-outline-success btn2">Submit</a>
+          <br><br>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-12  col-lg-6 col-xl-4">
+
+        <div class="h1">
+          <div class="img-put">
+            <div class="img-1">
+              <img src="img/images1.jpeg" alt="" height="120px" width="120px" style="border-radius: 100px;">
+            </div>
+            <hr>
+          </div>
+          <h1 class="heading">Heading</h1>
+          <hr>
+          <p class="donec">
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+            magna.
+          </p>
+          <a href="#" class="btn btn-outline-success btn2">Submit</a>
+          <br><br>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-12 md-pt-4 col-lg-12 col-xl-4">
+
+        <div class="h1">
+          <div class="img-put">
+            <div class="img-1">
+              <img src="img/images1.jpeg" alt="" height="120px" width="120px" style="border-radius: 100px;">
+            </div>
+            <hr>
+          </div>
+          <h1 class="heading">Heading</h1>
+          <hr>
+          <p class="donec">
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+            magna.
+          </p>
+          <a href="#" class="btn btn-outline-success btn3">Submit</a>
+          <br><br>
+        </div>
+      </div>
+      <hr class="hr">
+      <br><br>
+    </div>
+  </div>
+  <!-- imgparagrap1 -->
+  <div class="container">
+    <div class="row first">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6 col-xxl-6 nulla">
+        <h3 class="fi">First featurette heading. It'll blow your mind.</h3>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+
+        </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 png">
+        <img src="img/images1.jpeg" alt="" height="500px" width="500px" class="png2" >
+      </div>
+    </div>
+    <br>
+    <hr class="hr2">
+  </div>
+  <br>
+  <!-- imgparagrap2 -->
+  <div class="container">
+     <div class="row first">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 png3">
+        <img src="img/images1.jpeg" alt="" height="500px" width="500px" class="png2" >
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6 col-xxl-6  nulla2">
+        <h3 class="fi2">First featurette heading. It'll blow your mind.</h3>
+        <p class="p">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+
+        </p>
+      </div>
+
+    </div>
+    <br>
+    <hr class="hr4">
+<!-- imgparagrap3 -->
+    <div class="container">
+      <div class="row first2">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6 col-xxl-6 nulla3">
+          <h3 class="fi">First featurette heading. It'll blow your mind.</h3>
+          <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 png4">
+          <img src="img/images1.jpeg" alt="" height="500px" width="500px" class="png2" >
+        </div>
+      </div>
+      <br>
+      <hr class="hr6">
+    </div>
+    <br>
+    <br>
+
+
+
+
+</body>
+
+</html>
