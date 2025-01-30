@@ -1,0 +1,50 @@
+@media(min-width:992px)
+{
+    .day
+    {
+        position: relative;
+        bottom: 45px;
+    }
+    .min
+    {
+        position: relative;
+        padding-left: 70%;
+    }
+    .min2
+    {
+        position: relative;
+        padding-left: 65%;
+    }
+    .user
+    {
+        position: relative;
+        bottom: 30px;
+    }
+    .li
+    {
+        position: relative;
+        bottom: 45px;
+        width: 100%;
+    }
+}
+
+
+@media(min-width:1400px)
+{
+    .li
+    {
+        position: relative;
+        bottom: 45px;
+        width: 100%;
+    }
+    .min{
+        position: absolute;
+        
+        padding-left: 10%;
+    }
+    .min2{
+        position: absolute;
+        
+        padding-left: 10%;
+    }
+}
