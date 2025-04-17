@@ -9,7 +9,7 @@
     position: relative;
     left: 55px;
 }
-.boot:hover
+.boot:hover 
 {
     color:chocolate;
     transition: 0.9s;
